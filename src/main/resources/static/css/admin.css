@@ -1,0 +1,11 @@
+body {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/a/af/Castillo_de_Zafra_-_Exterior.JPG");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    font-family: Acme, Times, serif;
+    margin: 0;
+    background-color: #000000;
+}
+
+

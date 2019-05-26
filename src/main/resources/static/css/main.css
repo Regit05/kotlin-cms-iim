@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+body {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Jon_Snow_and_Ghost.jpg/733px-Jon_Snow_and_Ghost.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    font-family: Acme, Times, serif;
+    margin: 0;
+    background-color: #000000;
+}
+
+
+body .navbar{
+    background-color: rgba(0,0,0, 0.5);
+}
+body .navbar .container .nav-collapse{
+    display: flex;
+    justify-content: space-between;
+    margin : 0px 8px;
+}
+body .navbar .container .nav-collapse ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+}
+body .navbar .container .nav-collapse ul li{
+    display: flex;
+    margin-right: 10px;
+
+}
+body .navbar .container .nav-collapse ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p{
+    margin-top: 0;
+}
+
+body>.container{
+    margin : 8px;
+}
+body>.container h1{
+    display: flex;
+    align-items: center;
+}
+body>.container h1 img{
+    height: 30px;
+    padding-right: 10px;
+}body>.container ul{
+     list-style-type: none;
+     padding: 0;
+     width: 60%;
+     margin-top: 0;
+}
+body>.container ul li {
+    background-color: rgba(120, 120, 120, 0.5);
+    padding: 7px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+body>.container ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+body>.container ul li img{
+    width : 25px;
+}
+body>.container ul li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body>.container>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+body form{
+    display: flex;
+    flex-direction: column;
+}
+body form input{
+    margin:10px;
+    width: 300px;
+    height: 35px;
+    background-color: rgba(255,255,255,0.3);
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    font-size: 15px;
+}
+body form textarea{
+    margin:10px;
+    width: 300px;
+    height: 35px;
+    background-color: rgba(255,255,255,0.3);
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    font-size: 15px;
+}
+body form button{
+    margin:10px;
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 10px;
+}
